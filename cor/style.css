@@ -828,6 +828,13 @@ html{
     
 
 }
+
+@media (max-width: 379px ) {
+    .payment34 p{
+        font-size: 15px;
+    }
+  
+}
    
 
    
