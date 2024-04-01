@@ -825,6 +825,14 @@ html{
     .text-footer{
         font-size: 13px;
     }
+
+     .payment34{
+        width: 260px;
+        height: 310px;
+    }
+    .payment34 img{
+        width: 260px;
+    }
     
 
 }
