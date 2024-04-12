@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home/style.css">
     <link rel="shortcut icon"  type="x-icon" href="home/logo.png" >
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Maneeshgroup</title>
@@ -66,9 +67,9 @@
     </div>
     <div class="aboutplank">
         <div class="mapsalgo">
-        <div class="webste">
+        <div class="webste" data-aos="slide-left">
             <!-- <img src="home/busie2.jpg" alt="img"/> -->
-            <div class="webste2">
+            <div class="webste2" >
                 <h3>Business Website</h3>
                 <p>Here You can Create A good Website
                     <br>
@@ -89,7 +90,7 @@
                 
             </div>
         </div>
-        <div class="webste">
+        <div class="webste" data-aos="slide-right">
             <!-- <img src="home/beco2.jpg" alt="img"/> -->
             <div class="webste2">
                 <h3>Forex Expert Course</h3>
@@ -110,94 +111,29 @@
         </div>
     </div>
 
-    <div class="livechart2">
-        <!-- TradingView Widget BEGIN -->
+    <div class="livechart2" >
+<!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
     <div class="tradingview-widget-container__widget"></div>
-    
-    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+    <div class="tradingview-widget-copyright"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-forex-cross-rates.js" async>
     {
-    "colorTheme": "dark",
-    "dateRange": "12M",
-    "showChart": true,
-    "locale": "en",
-    "largeChartUrl": "",
+    "width": "100%",
+    "height": "100%",
+    "currencies": [
+      "EUR",
+      "USD",
+      "JPY",
+      "GBP",
+      "CHF",
+      "AUD",
+      "CAD",
+      "NZD"
+    ],
     "isTransparent": false,
-    "showSymbolLogo": false,
-    "showFloatingTooltip": false,
-    "width": "360",
-    "height": "550",
-    "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
-    "plotLineColorFalling": "rgba(41, 98, 255, 1)",
-    "gridLineColor": "rgba(240, 243, 250, 0)",
-    "scaleFontColor": "rgba(106, 109, 120, 1)",
-    "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
-    "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
-    "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
-    "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
-    "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
-    "tabs": [
-      {
-        "title": "Indices",
-        "symbols": [
-          {
-            "s": "FOREXCOM:SPXUSD",
-            "d": "S&P 500 Index"
-          },
-          {
-            "s": "FOREXCOM:NSXUSD",
-            "d": "US 100 Cash CFD"
-          },
-          {
-            "s": "FOREXCOM:DJI",
-            "d": "Dow Jones Industrial Average Index"
-          },
-          {
-            "s": "INDEX:NKY",
-            "d": "Nikkei 225"
-          },
-          {
-            "s": "INDEX:DEU40",
-            "d": "DAX Index"
-          },
-          {
-            "s": "FOREXCOM:UKXGBP",
-            "d": "FTSE 100 Index"
-          }
-        ],
-        "originalTitle": "Indices"
-      },
-      {
-        "title": "Forex",
-        "symbols": [
-          {
-            "s": "FX:EURUSD",
-            "d": "EUR to USD"
-          },
-          {
-            "s": "FX:GBPUSD",
-            "d": "GBP to USD"
-          },
-          {
-            "s": "FX:USDJPY",
-            "d": "USD to JPY"
-          },
-          {
-            "s": "FX:USDCHF",
-            "d": "USD to CHF"
-          },
-          {
-            "s": "FX:AUDUSD",
-            "d": "AUD to USD"
-          },
-          {
-            "s": "FX:USDCAD",
-            "d": "USD to CAD"
-          }
-        ],
-        "originalTitle": "Forex"
-      }
-    ]
+    "colorTheme": "dark",
+    "locale": "en",
+    "backgroundColor": "#000000"
   }
     </script>
   </div>
@@ -338,5 +274,11 @@
   
          <script src="resp.js"></script>
          <script src="activePage.js"></script>
+         <!-- our os data -->
+
+         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+         <script>
+           AOS.init();
+         </script>
 </body>
 </html>
