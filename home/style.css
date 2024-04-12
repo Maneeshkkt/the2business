@@ -421,6 +421,8 @@ a{
 .livechart2 {
     border: 0px solid black;
     box-shadow: 0 4px 8px black;
+    width: 600px;
+    height: 530px;
 
 }
 .webste2{
@@ -435,7 +437,7 @@ a{
     border-radius: 4px;
     width: 100%;
     height: 28px;
-    cursor: pointer;
+    
     box-shadow: 0 4px 8px rgb(62, 151, 253);
     margin-top: 10px;
     display: flex;
@@ -447,6 +449,8 @@ a{
 
 .bt4 a{
     font-size: 15px;
+    
+
 }
 
 
@@ -686,7 +690,17 @@ img{
 
    
 
+   
+
     
+}
+
+
+@media (max-width: 991px ){
+    .livechart2{
+        width: 100%;
+        
+    }
 }
 
 @media (max-width: 513px ){
