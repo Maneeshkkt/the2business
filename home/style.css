@@ -391,14 +391,14 @@ a{
 
 .mapsalgo{
     display: flex;
-    flex-direction: column;
+   
 }
 
 
 .aboutplank{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -406,34 +406,76 @@ a{
 
 .webste {
     width: 355px;
-    height: 250px;
+    height: 530px;
     border: 0px solid black;
     display: inline-block;
     margin: 10px;
     box-shadow: 0 4px 8px black;
     transition: 1s;
+    display: flex;
+    
     
    
 
 }
 
+
+
+/* table button for */
+table{
+    border-style: none;
+    width: 100%;
+    height: 30px;
+    box-shadow: 0 2px 4px blue;
+    background-color: #333232;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+table:hover{
+    box-shadow: 0 4px 10px blue; 
+    margin-top: 8px;
+    background-color: #504f4f;
+}
+
+table a{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
 /* live chart for border */
 .livechart2 {
     border: 0px solid black;
     box-shadow: 0 4px 8px black;
-    width: 600px;
+    width: 400px;
     height: 530px;
     margin-top: 10px;
+    margin-right: 6px;
 
 }
-.webste2{
+.webste2 {
     padding: 0 2px 0 2px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 8px;
+    flex-wrap: wrap;
 }
 
-.bt4{
+.webste2 {
+    margin-top: 8px;
+    color: #424141;
+}
+
+.proj2 a{
+    color: #201df7;
+    
+}
+
+/* .bt4{
     background-color: #1f1f1f;
     border-radius: 4px;
     width: 100%;
@@ -452,7 +494,7 @@ a{
     font-size: 15px;
     
 
-}
+} */
 
 
 
@@ -463,7 +505,7 @@ a{
 } */
 
 .webste:hover{
-    box-shadow: 0 8px 16px black ;
+    box-shadow: 0 8px 16px rgb(86, 19, 243) ;
 }
 
 
@@ -551,6 +593,56 @@ img{
     flex-direction: column;
  }
 
+ iframe{
+    background: url(logo.png);
+    width: 100%;
+    height: 190px;
+    
+ }
+
+ .iframe1{
+    display: flex;
+    justify-content: center;
+ }  
+ 
+
+
+.webste2 i{
+    color: blue;
+    
+}
+
+ .star2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .star2 i{
+    color: rgb(20, 122, 255);
+    font-size: 25px;
+ }
+
+@media (max-width: 1084px){
+    .aboutplank{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .livechart2{
+        width: 100%;
+        
+    }
+}
+
+@media (max-width: 780px){
+    .mapsalgo{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
 
 
 
@@ -698,10 +790,7 @@ img{
 
 
 @media (max-width: 991px ){
-    .livechart2{
-        width: 100%;
-        
-    }
+    
 }
 
 @media (max-width: 513px ){
