@@ -410,14 +410,17 @@ a{
     border: 0px solid black;
     display: inline-block;
     margin: 10px;
-    box-shadow: 0 4px 8px black;
+    box-shadow: 0px  2px 6px black;
     transition: 1s;
     display: flex;
     
     
-   
-
 }
+url{
+    height: 10px;
+    width: 10px;
+}
+
 
 
 
@@ -470,6 +473,14 @@ table a{
     color: #424141;
 }
 
+.webste2 h3{
+    color: #1f1f1f;
+}
+
+.webste2 p{
+    color: #615f5f;
+}
+
 .proj2 a{
     color: #201df7;
     
@@ -505,7 +516,7 @@ table a{
 } */
 
 .webste:hover{
-    box-shadow: 0 8px 16px rgb(86, 19, 243) ;
+    box-shadow: 0 8px 16px rgb(52, 51, 53) ;
 }
 
 
@@ -594,21 +605,18 @@ img{
  }
 
  iframe{
-    background: url(logo.png);
-    width: 100%;
-    height: 190px;
+    
+    width: 330px;
+    height: 186px;
     
  }
 
- .iframe1{
-    display: flex;
-    justify-content: center;
- }  
+
  
 
 
 .webste2 i{
-    color: blue;
+    color: rgb(0, 60, 255);
     
 }
 
