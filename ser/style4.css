@@ -80,7 +80,7 @@
      border-radius: 9px;
  }
  .background {
-     background:rgb(196, 196, 216) url('bgimg.jpg');
+     background: linear-gradient(120deg , rgb(27, 27, 27) , rgb(86, 85, 85)) ;
      background-size: cover;
      background-blend-mode: darken;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
